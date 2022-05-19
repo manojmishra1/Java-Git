@@ -17,6 +17,17 @@ public class JavaGit {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Welcome Javagit");
+       int sum=0;
+        for(int i=0;i<5;i++)
+        {
+          sum=sum+i;
+            System.out.println("Sum is\t"+sum);
+            
+            if(i%2==0)
+            {
+                sum=sum+i;
+            }
+        }
     }
     
 }
